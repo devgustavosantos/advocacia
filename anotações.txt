@@ -1,0 +1,9 @@
+FONTES
+Principal: Frank Ruhl Libre
+Secundaria: Source Sans Pro
+
+CORES
+COR 1 - #981E25
+COR 1 - #121212
+COR 1 - #121212
+COR 1 - #4A4A4A
