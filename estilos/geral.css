@@ -106,31 +106,59 @@ header ul li a {
     font-weight: 600;
 }
 
+.escurecimento {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-image: linear-gradient(to left, black, rgba(0, 0, 0, 0.750), rgba(255, 255, 255, 0));
+}
+
 /* Banner *//* Banner *//* Banner */
 
 .banner {
     background-image: url('../imagens/lei.jpg');
     min-height: 800px;
-    
+}
+
+.banner .escurecimento {
+    height: 800px;
 }
 
 .banner .container {
     display: grid;
-    grid-template-areas: "vazio cont1"
-                        "vazio cont2"
-                        "vazio cont3";
-    grid-template-columns: 50% 50%;
-
+    grid-template-areas:
+        "vazio cont1"
+        "vazio cont2"
+        "vazio cont3";
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, auto);
+    align-content: center;
+    height: 100%;
 }
 
 .banner .container h1 {
-    grid-area: "cont1";
+    margin-top: min(150px, 20vw);
+    grid-area: cont1;
+    text-align: justify;
+    font-size: 2.4rem;
+    font-weight: 800;
+    color: white;
 }
 
 .banner .container p {
-    grid-area: "cont2";
+    grid-area: cont2;
+    text-align: justify;
+    color: white;
 }
 
 .banner .container a {
-    grid-area: "cont3";
+    grid-area: cont3;
+   
+}
+
+.banner .botao1 {
+    width: 11rem;
+    padding: 0.5rem 2rem;
+    text-align: center;
 }
