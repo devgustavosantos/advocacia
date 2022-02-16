@@ -22,9 +22,7 @@
 }
 
 html, body {
-/*     min-height: 200vh; */
     font-family: var(--fonte2);
-    
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -41,35 +39,30 @@ section, header, p, main {
     overflow: hidden;
 }
 
-
 .container {
     width: min(1200px, 90vw);
     margin: auto;
 }
 
 .botao1 {
-    
     padding: 0.5rem 2rem;
     margin: 2rem;
-    border-radius: 0.4rem;
+    border-radius: 0.2rem;
     color: white;
     background-color: var(--cor1);
     transition: all 0.3s linear;
 }
 
 .botao1:hover {
-    
     color: var(--cor1) !important;
     background-color: rgb(255, 255, 255);
     border: 1px solid var(--cor1);
-    
 }
 
 .botao2 {
-    
     padding: 0.5rem 2rem;
     margin: 2rem;
-    border-radius: 0.4rem;
+    border-radius: 0.2rem;
     color: var(--cor1);
     background-color: rgb(255, 255, 255);
     border: 1px solid var(--cor1);
@@ -77,250 +70,13 @@ section, header, p, main {
 }
 
 .botao2:hover {
-    
     color: rgb(255, 255, 255);
     background-color: var(--cor1);
     border: 1px solid rgb(255, 255, 255);
-    
 }
 
 .fundo {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: left center;
-}
-
-
-/* Header *//* Header *//* Header */
-header {
-    width: 100%;
-    height: 4rem;
-    background-color: rgb(0, 0, 0);
-}
-
-header .container {
-    display: flex;
-    height: 100%;
-    justify-content: space-between;
-    align-items: center;
-}
-
-header a {
-    display: flex;
-    align-items: center;
-    height: 100%;
-}
-
-header h1 {
-    color: rgb(255, 255, 255);
-    font-weight: 400;
-}
-
-header  img {
-    margin-right: .3rem;
-    height: 80%;
-    border-radius: 0.2rem;
-}
-
-header ul {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-}
-
-header ul li a {
-    color: rgb(255, 255, 255);
-    font-weight: 600;
-}
-
-.escurecimento {
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    background-image: linear-gradient(to left, rgb(0, 0, 0), rgba(0, 0, 0, 0.750), rgba(255, 255, 255, 0));
-}
-
-/* Banner *//* Banner *//* Banner */
-.banner {
-    background-image: url('../imagens/lei.jpg');
-    min-height: 1000px;
-}
-
-.banner .escurecimento {
-    height: 1000px;
-}
-
-.banner .container {
-    display: grid;
-    grid-template-areas:
-        "vazio cont1"
-        "vazio cont2"
-        "vazio cont3";
-    grid-gap: 10px;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(3, auto);
-    align-content: center;
-    height: 100%;
-}
-
-.banner .container h1 {
-    grid-area: cont1;
-    text-align: justify;
-    font-size: 2.4rem;
-    font-weight: 800;
-    color: rgb(255, 255, 255);
-}
-
-.banner .container p {
-    grid-area: cont2;
-    text-align: justify;
-    color: rgb(255, 255, 255);
-}
-
-.banner .container a {
-    grid-area: cont3;
-}
-
-.banner .botao1 {
-    width: 11rem;
-    padding: 0.5rem 2rem;
-    text-align: center;
-}
-
-/* apres *//* apres *//* apres */
-.apres {
-    background-color: var(--cor4);
-}
-
-.apres .container {
-    margin: 4rem auto;
-    display: grid;
-    grid-template-areas:
-        "topo topo"
-        "imagem conteudo";
-    grid-gap: 2rem;
-    grid-template-rows: 1fr 2fr;
-    grid-template-columns: 1fr 1fr;
-}
-
-.apres .container .topo-apres{
-    grid-area: topo;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
-}
-
-.apres .container .topo-apres h2{
-    font-size: 3rem;
-}
-
-.apres .container .topo-apres h3{
-    font-size: 2rem;
-    color: var(--cor1);
-    font-weight: 500;
-}
-
-.apres .container .topo-apres h4{
-    font-size: 1.5rem;
-    font-weight: 400;
-}
-
-.apres .container .img-apres{
-    grid-area: imagem;
-    box-shadow: 0px 0px 10px rgb(119, 119, 119);
-}
-
-.apres .container .img-apres img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-}
-
-.apres .container .cont-apres{
-    grid-area: conteudo;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    gap: 1.5rem;
-}
-
-.apres .container .cont-apres h2{
-    font-size: 2rem;
-    
-}
-
-.apres .container .cont-apres h3{
-    font-size: 1.5rem;
-    color: var(--cor1);
-}
-
-.apres .container .cont-apres p{
-    font-size: 1.2rem;
-    text-align: justify;
-}
-
-.apres .container .cont-apres .botao2 {
-    margin: 0;
-    width: 10rem;
-    text-align: center;
-    font-weight: 600;
-}
-
-/* motivos *//* motivos *//* motivos */
-.motivos {
-    background-color: var(--cor5);
-}
-
-.motivos .container{
-    padding-top: 5rem;
-    display: grid;
-    grid-template-areas: 
-    "topo topo"
-    "mot1 mot2"
-    "mot3 mot4"
-    "base base";
-    text-align: center;
-    grid-gap: 2.5rem;
-    grid-template-rows: 1fr 2fr 2fr 3fr;
-}
-
-.motivos .container .topo-motivos {
-    grid-area: topo;
-    font-size: 2rem;
-}
-
-.cont-mot {
-    font-size: 1.2rem;
-}
-
-.motivos .container .mot1 {
-    grid-area: mot1;
-}
-
-.motivos .container .mot2 {
-    grid-area: mot2;
-}
-
-.motivos .container .mot3 {
-    grid-area: mot3;
-}
-
-.motivos .container .mot4 {
-    grid-area: mot4;
-}
-
-.motivos .container .base-motivos {
-    grid-area: base;
-    font-size: 2rem;
-
-   
-}
-
-.motivos .container .mot-img {
-    
-    display: flex;
-    justify-content: space-around;
-    
 }
