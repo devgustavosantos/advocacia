@@ -102,11 +102,11 @@ footer .topo-footer  h3{
 }
 
 footer .base-footer {
-   
     padding: 2rem;
-    max-width: 380px;
-    margin: auto;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
 }
 
 footer .base-footer a {
@@ -115,3 +115,14 @@ footer .base-footer a {
 footer .base-footer a:visited {
     color: inherit;
  }
+
+
+@media (max-width: 700px) {
+
+    footer .topo-footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 3rem;
+    }
+}

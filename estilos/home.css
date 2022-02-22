@@ -319,7 +319,6 @@ header ul li a {
 .areas .topo-areas a{
     grid-area: botao;
     width: 10rem;
-    height: 3rem;
     text-align: center;
     font-weight: 600;
 }
@@ -449,13 +448,19 @@ header ul li a {
  
 .depoimentos .container a {
     display: block;
-    width: 245px;
+    width: 250px;
     margin: auto;
-
+    text-align: center;
+    font-weight: 600;
 }
 
 
+
 @media (max-width: 800px) {
+
+    html {
+        font-size: 110%;
+    }
 
     .apres .container {
         grid-template-areas:
@@ -463,10 +468,25 @@ header ul li a {
             "imagem"
             "conteudo";
     }
-    
+
+    .areas .topo-areas {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+    }
+  
+    .areas .topo-areas h2 {
+        align-self: initial;
+       
+    }
 }
 
 @media (max-width: 700px) {
+    html {
+        font-size: 130%;
+    }
+
     .areas .container {
         grid-template-areas:
         "topo topo"
@@ -516,6 +536,8 @@ header ul li a {
     text-align: center;
     }
 
+
+
 }
 
 @media (max-width: 600px) {
@@ -556,18 +578,21 @@ header ul li a {
         text-align: center;
     }
 
+    /*
+    
     .areas .topo-areas {
         display: flex;
         flex-direction: column;
-    }
+  
     .areas .topo-areas h2 {
         align-self: initial;
     }
 
-    footer .topo-footer {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        gap: 3rem;
+      } */
+
+    .areas .topo-areas a {
+        height: initial;
     }
+
+ 
 }
