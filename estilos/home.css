@@ -124,8 +124,8 @@ header ul li a {
         "topo topo"
         "imagem conteudo";
     grid-gap: 2rem;
-    grid-template-rows: 1fr 2fr;
-    grid-template-columns: 1fr 1fr;
+    /* grid-template-rows: 1fr 2fr; */
+    /* grid-template-columns: 1fr 1fr; */
 }
 
 .apres .container .topo-apres{
@@ -452,4 +452,122 @@ header ul li a {
     width: 245px;
     margin: auto;
 
+}
+
+
+@media (max-width: 800px) {
+
+    .apres .container {
+        grid-template-areas:
+            "topo"
+            "imagem"
+            "conteudo";
+    }
+    
+}
+
+@media (max-width: 700px) {
+    .areas .container {
+        grid-template-areas:
+        "topo topo"
+        "area1 area2"
+        "area3 area4"
+        "area5 area6";
+        grid-template-columns: repeat(2, 3fr);
+        grid-template-rows: initial;
+        line-height: initial;
+    }
+
+    .depoimentos .container .topo-depo {
+        grid-template-areas: 
+        "conteudo" 
+        "foto";
+        grid-template-columns: initial;
+    }
+
+    .depoimentos .container .topo-cont {
+        align-items: center;
+        text-align: center;
+    }
+
+    .depoimentos .base-depo {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+   /*  .depoimentos .base-depo > div:nth-child(1){
+        grid-area: coment1;
+    }
+
+    .depoimentos .base-depo > div:nth-child(2){
+        grid-area: coment2;
+    }
+
+    .depoimentos .base-depo > div:nth-child(3){
+        grid-area: coment3;
+        align-self: center;
+        max-width: 307px;
+        justify-self: center;
+    } */
+    .depoimentos .container .quad-depo {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    }
+
+}
+
+@media (max-width: 600px) {
+    .banner .container {
+        grid-template-areas:
+        "cont1"
+        "cont2"
+        "cont3";
+    grid-template-columns: 1fr;
+    text-align: center;
+    }
+
+    .banner .botao1 {
+        margin: auto;
+    }
+
+    .apres .container .cont-apres {
+        text-align: center;
+        align-items: center;
+    }
+
+    .motivos .container {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .motivos .container .base-motivos {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .areas .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .areas .topo-areas {
+        display: flex;
+        flex-direction: column;
+    }
+    .areas .topo-areas h2 {
+        align-self: initial;
+    }
+
+    footer .topo-footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 3rem;
+    }
 }
