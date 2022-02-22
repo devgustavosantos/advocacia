@@ -118,7 +118,6 @@ footer .base-footer a:visited {
 
 
 @media (max-width: 700px) {
-    @css 
 
     footer .topo-footer {
         flex-direction: column;
