@@ -34,6 +34,8 @@ a, li {
     list-style-type: none;
 }
 
+
+
 section, header, p, main {
     max-width: 100vw;
     overflow: hidden;
@@ -80,3 +82,36 @@ section, header, p, main {
     background-repeat: no-repeat;
     background-position: left center;
 }
+
+footer {
+    background-color: var(--cor2);
+    color: var(--cor5);
+
+}
+
+footer .topo-footer {
+    padding: 2rem 0;
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 1px solid var(--cor5);
+}
+
+footer .topo-footer  h3{
+    font-size: 1.7rem;
+    padding: 0.8rem 0;
+}
+
+footer .base-footer {
+   
+    padding: 2rem;
+    max-width: 380px;
+    margin: auto;
+    text-align: center;
+}
+
+footer .base-footer a {
+    font-weight: 600;
+}
+footer .base-footer a:visited {
+    color: inherit;
+ }
