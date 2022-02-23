@@ -9,6 +9,7 @@ header.menu-mobile a, li {
     text-decoration: none;
     list-style-type: none;
     color: white;
+    margin: 5vw;
 }
 
 header.menu-mobile a:visited {
