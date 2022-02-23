@@ -8,10 +8,11 @@
 header.menu-mobile a, li {
     text-decoration: none;
     list-style-type: none;
+    color: white;
 }
 
 header.menu-mobile a:visited {
-    color: inherit;
+    color: white;
 }
 
 header.menu-mobile {
