@@ -76,7 +76,7 @@ input#botao-menu:checked ~ label .tracos *:nth-child(3) {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 10vw;
+    gap: 3rem;
 }
 
 .menu-conteudo ul  li a{
