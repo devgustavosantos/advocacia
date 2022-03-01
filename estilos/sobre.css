@@ -359,4 +359,94 @@ line-height: 2.5rem;
 .contato .container .botao2 {
     align-self: center;
     justify-self: center;
+    text-align: center;
+}
+
+/* ------------------------- Media Querys --------------------------- */
+
+@media (max-width: 700px) {
+
+    html {
+        font-size: 110%;
+    }
+
+    h1, h2, h3, p {
+        text-align: center;
+    }
+
+    .banner .container h1 {
+        text-align: center;
+    }
+
+    .apres .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .apres .container *:nth-child(n){
+        margin-bottom: 2rem;
+    }
+
+    .apres .container *:last-child{
+        margin-bottom: 0;
+    }
+    
+    .apres .cont-apres img:nth-child(3) {
+        display: block;
+        margin: auto;
+    }
+
+    .historia .container p:nth-child(n){
+        margin-bottom: 2rem;
+    }
+
+    .historia .container *:last-child{
+        margin-bottom: 0;
+    }
+
+    .historia .topo-historia {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .historia .base-historia {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .historia .base-historia h3{
+        font-size: 2rem;
+    }
+
+    .historia .base-historia p{
+        font-size: 1.22rem;
+    }
+
+    .time .topo-time p {
+        line-height: 2rem;    
+    }
+
+    .time .quad-time {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .time .quad-time div h3 {
+        font-size: 2rem;
+    }
+
+    .time .cont-time:nth-child(n){
+        margin-bottom: 2rem;
+    }
+
+    .time .cont-time:last-child{
+        margin-bottom: 0rem;
+    }
+    
+    .contato .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+
 }
