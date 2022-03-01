@@ -374,6 +374,10 @@ line-height: 2.5rem;
         text-align: center;
     }
 
+    .fundo {
+        background-position: right center;
+    }
+
     .banner .container h1 {
         text-align: center;
     }
