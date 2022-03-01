@@ -194,10 +194,6 @@ iframe{
         text-align: center;
     }
 
-/*     .fundo {
-        background-size: contain;
-    } */
-
     .banner .container h1 {
         text-align: center;
     }
@@ -219,14 +215,23 @@ iframe{
         display: none;
     }
 
-    .formulario .container form {
+    .formulario .container form, option {
         width: 100%;
+        font-size: 1.2rem;
+    }
+
+    .formulario .dados {
+        
+        padding: .6rem 0;
     }
 
     #contato-input {
         justify-content: space-between;
     }
     .formulario .container form .botao1 {
-        margin: auto;
+        margin: 2rem auto 0 auto;
+        width: initial;
+        font-weight: 500;
+        font-size: 1rem;
     }
 }
