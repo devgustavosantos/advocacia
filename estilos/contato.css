@@ -146,8 +146,8 @@ iframe{
     display: flex;
     flex-direction: column;
     align-self: center;
-    
 }
+
 .formulario .container form > *:nth-child(n){
     margin-bottom: .8rem;
 }
@@ -217,17 +217,17 @@ iframe{
 
     .formulario .container form, option {
         width: 100%;
-        font-size: 1.2rem;
+        font-size: 1.3rem;
     }
 
     .formulario .dados {
-        
         padding: .6rem 0;
     }
 
     #contato-input {
         justify-content: space-between;
     }
+    
     .formulario .container form .botao1 {
         margin: 2rem auto 0 auto;
         width: initial;
