@@ -72,14 +72,15 @@
         <section class="formulario">
             <div class="container">
                 <img src="../imagens/lei-2.jpg" alt="Foto do Símbolo da Lei">
-                <form action="">
+                <form action="#" method="post">
                     <h2>Revise seu caso conosco</h2>
                     <h3>As consultas são gratuitas</h3>
+                    
                     <label for="name"><div>Nome:</div>
-                        <input type="text" id="name" class="dados">
+                        <input type="text" id="name" class="dados" required>
                     </label>
                     <label for="tel"><div>Telefone:</div>
-                        <input type="number" id="tel" class="dados">
+                        <input type="number" id="tel" class="dados" required>
                     </label>
                     <label for="email"><div>E-mail:</div>
                         <input type="email" id="email" class="dados">
@@ -108,7 +109,7 @@
                     </label>
                     <label for="terms">
                         <input type="checkbox" id="terms">
-                        Deseja receber nossos e-mails informativos
+                        Deseja receber nossos e-mails informativos?
                     </label>
                     <input type="submit" value="OBTER AJUDA" class="botao1">
                 </form>
