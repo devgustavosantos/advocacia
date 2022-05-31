@@ -1,6 +1,6 @@
 # Projeto Pizzaria
 
-Esse projeto é um site com o catálogo de uma pizzaria.
+Esse projeto é um site de uma advocacia fictícia.
 
 ## Sumário
 - [Pré-Visualização](#pré-visualização)
@@ -35,7 +35,7 @@ Esse projeto é um site com o catálogo de uma pizzaria.
 
 ## Sobre
 
-Este é um um projeto simples, onde foi feita a contrução de uma lannding page de uma advocacia ficticia.
+Este é um um projeto simples, onde foi feita a contrução de uma lannding page quase sem interatividade.
 
 </br>
 
