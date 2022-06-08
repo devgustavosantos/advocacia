@@ -29,7 +29,7 @@ Esse projeto é um site de uma advocacia fictícia.
 
 - Todas as fotos utilizadas pertecem a seus respectivos autores.
 
-- Para quiser testar o projeto basta [CLICAR AQUI!](https://devgustavosantos.github.io/advocacia)
+- Para testar o projeto basta [CLICAR AQUI!](https://devgustavosantos.github.io/advocacia)
 
 </br>
 
